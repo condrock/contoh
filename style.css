@@ -1,8 +1,93 @@
-.header {
-    margin-bottom: 120px;
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+* {
+    font-family: 'Handlee', cursive;
+}
+#header {
+    margin: auto;
+    justify-content: space-evenly;;
 }
 
-#hubungi {
-    width: 100%;
-    padding-top: 50px;
+.logoheader {
+    width: 30px;
+    height: 30px;
+}
+
+.nav nav-pills .nav-item {
+    left: 5px;
+}
+
+.logo {
+    border: 3px solid #fff;
+    margin-bottom: 5%;
+    width: 25%;
+    height: 25%;
+}
+
+.bi-star-fill {
+    color: rgb(235, 235, 39);
+}
+
+.penutup {
+    color: #fff;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+@media (max-width: 320px) {
+    .produk {
+        display: block;
+    }
+
+    .footeratas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .produk {
+        display: block;
+    }
+
+    .footeratas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 576px) {
+    .produk {
+        display: block;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .produk {
+        display: block;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .produk {
+        display: flex;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .produk {
+        display: flex;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    .produk {
+        display: flex;
+    }
 }

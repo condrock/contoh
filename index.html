@@ -4,250 +4,255 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CateringKu</title>
+    <title>BUDE CateringKu</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
   <!-- header -->
-  <header class="header">
-    <div class="fixed-top px-3 py-2 text-bg-dark">
-        <div class="container">
+  <section id="header">
+    <div class="container">
+      <header class="d-flex bg-white flex-wrap py-2 border-bottom">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+          <img src="images/bude.jpg" class="rounded-circle logoheader" alt="bude-catering">
+          <span class="fs-5 fw-bold me-2 ms-2">BUDE CateringKu</span>
+        </a>
+    
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="#" target="_blank" class="nav-link active bg-success" aria-current="page"><i class="bi bi-whatsapp"></i></a></li>
+        </ul>
 
-            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                <a href="/" class="d-flex align-items-center fw-semibold fs-4 my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
-                    <img src="images/bude.jpg" class="rounded-circle me-2" style="width: 30px;" alt="bude">BUDE<i class="bi bi-patch-check-fill ms-1 me-1 fs-6 text-primary"></i> | CateringKu
-                </a>
-
-                <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
-                    <li>
-                        <a href="#" class="nav-link text-white">
-                            <i class="bi bi-shop-window"></i>
-                            Beranda
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link text-white">
-                            <i class="bi bi-basket"></i>
-                            Galeri
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link text-white">
-                            <i class="bi bi-phone-vibrate"></i>
-                            Hubungi
-                        </a>
-                    </li>
-              </div>
-          </div>
-      </div>
-  </header>
-  <!-- header end -->
-
-  <!-- hero -->
-  <section id="beranda">
-    <div class="px-4 pt-5 my-5 text-center border-bottom">
-      <h1 class="display-4 fw-bold">CateringKu</h1>
-      <div class="col-lg-6 mx-auto">
-        <p class="lead mb-4">CateringKu adalah jasa catering yang menyediakan makanan berkualitas tinggi dan layanan terbaik untuk acara-acara
-        spesial Anda. Kami menyediakan berbagai pilihan menu untuk berbagai jenis acara, seperti pernikahan, ulang tahun,
-        konferensi, dan lainnya. Kami memperhatikan detail dan kualitas makanan untuk memastikan kepuasan pelanggan kami. Kami
-        juga siap untuk menyesuaikan menu sesuai dengan kebutuhan dan selera pelanggan kami.</p>
-        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-          <!-- <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Hubungi</button> -->
-        </div>
-      </div>
-      <div class="overflow-hidden" style="max-height: 30vh;">
-        <div class="container px-5">
-          <img src="images/catering.webp" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700"
-            height="500" loading="lazy">
-        </div>
-      </div>
+      </header>
     </div>
   </section>
-  <!-- hero end -->
-    
-  <!-- galeri -->
-  <section id="galeri">
-    <div class="album py-5 bg-light d-flex">
-      <div class="container">
-        <h3 class="fw-bold text-center">Galeri</h3>
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-          <div class="col">
-            <div class="card shadow-sm">
-              <img src="images/galeri1.jpg" class="rounded" alt="galeri1">
-              <div class="card-body">
-                <p class="card-header bg-primary text-white fw-bold text-center">Hokben</p>
-                <div class="alert alert-primary text-black" role="alert">
-                <i class="bi bi-info-square me-1 text-primary"></i>Menggunakan set ala hoka hoka bento.
-                </div>
-                <div class="d-flex justify-content-between align-items-center">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm">
-              <img src="images/galeri2.jpg" class="rounded" alt="galeri2">
-              <div class="card-body">
-                <p class="card-header bg-primary text-white fw-bold text-center">Tumpeng</p>
-                <div class="alert alert-primary text-black" role="alert">
-                <i class="bi bi-info-square me-1 text-primary"></i>Cocok untuk acara pembukaan bisnis Anda.
-                </div>
-                <div class="d-flex justify-content-between align-items-center"> 
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm">
-              <img src="images/galeri3.jpg" class="rounded" alt="galeri3">
-              <div class="card-body">
-                <p class="card-header bg-primary text-white fw-bold text-center">Rice Bowl</p>
-                <div class="alert alert-primary text-black" role="alert">
-                <i class="bi bi-info-square me-1 text-primary"></i>Kemasan yang ringkas dan mudah dibawa.
-                </div>
-                <div class="d-flex justify-content-between align-items-center">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm">
-              <img src="images/galeri4.jpg" class="rounded" alt="galeri3">
-              <div class="card-body">
-                <p class="card-header bg-primary text-white fw-bold text-center">Nasi Kuning</p>
-                <div class="alert alert-primary text-black" role="alert">
-                  <i class="bi bi-info-square me-1 text-primary"></i>Cita rasa dengan kearifan lokal.
-                </div>
-                <div class="d-flex justify-content-between align-items-center">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm">
-              <img src="images/galeri5.jpg" class="rounded" alt="galeri3">
-              <div class="card-body">
-                <p class="card-header bg-primary text-white fw-bold text-center">Nasi Uduk</p>
-                <div class="alert alert-primary text-black" role="alert">
-                  <i class="bi bi-info-square me-1 text-primary"></i>Menu sarapan yang sempurna.
-                </div>
-                <div class="d-flex justify-content-between align-items-center">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm">
-              <img src="images/galeri6.jpg" class="rounded" alt="galeri3">
-              <div class="card-body">
-                <p class="card-header bg-primary text-white fw-bold text-center">Nasi Liwet</p>
-                <div class="alert alert-primary text-black" role="alert">
-                  <i class="bi bi-info-square me-1 text-primary"></i>Nikmati kebersamaan dengan orang terkasih.
-                </div>
-                <div class="d-flex justify-content-between align-items-center">
-                </div>
-              </div>
-            </div>
-          </div>
-      </section>
-  <!-- galeri -->
+  <!-- header end -->
 
-  <!-- fitur -->
-  <div class="container px-4 py-5" id="hanging-icons">
-    <h3 class="pb-2 border-bottom text-center fw-bold">CateringKu</h3>
-    <p class="text-center">Kemudahan menggunakan layanan di CateringKu.</p>
-    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-      <div class="col d-flex align-items-start">
-        <div
-          class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-          <i class="bi bi-1-square-fill"></i>
-        </div>
-        <div>
-          <h3 class="fs-2">Bisa catering harian</h3>
-          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and
-            probably just keep going until we run out of words.</p>
-          </a>
-        </div>
+  <!-- Kelebihan -->
+  <div class="container px-4 py-5">
+    <h3 class="pb-2 border-bottom fw-bold">BUDE CateringKu</h3>
+  
+    <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+      <div class="col d-flex flex-column align-items-start gap-2">
+        <h3 class="fw-bold">CateringKu</h3>
+        <p class="text-muted">BUDE CateringKu, kemudahan dalam segala hal, maksimal dalam pelayanan.</p>
+        <strong><i class="bi bi-geo-alt-fill text-success me-1"></i>BUDE CateringKu berlokasi di Citeureup-Bogor</strong>
+        <a href="#" class="btn btn-success btn-lg"><i class="bi bi-whatsapp me-1"></i>Hubungi BUDE</a>
       </div>
-      <div class="col d-flex align-items-start">
-        <div
-          class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-          <i class="bi bi-2-square-fill"></i>
-        </div>
-        <div>
-          <h3 class="fs-2">Bisa partai kecil</h3>
-          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and
-            probably just keep going until we run out of words.</p>
-          </a>
-        </div>
-      </div>
-      <div class="col d-flex align-items-start">
-        <div
-          class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-          <i class="bi bi-3-square-fill"></i>
-        </div>
-        <div>
-          <h3 class="fs-2">Bisa pilih menu</h3>
-          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and
-            probably just keep going until we run out of words.</p>
-          </a>
+  
+      <div class="col">
+        <div class="row row-cols-1 row-cols-sm-2 g-4">
+          <div class="col d-flex flex-column gap-2">
+            <div
+              class="icon text-success fs-1">
+              <i class="bi bi-hearts"></i>
+            </div>
+            <h4 class="fw-semibold mb-0">Featured title</h4>
+            <p class="text-muted">Paragraph of text beneath the heading to explain the heading.</p>
+          </div>
+  
+          <div class="col d-flex flex-column gap-2">
+            <div
+              class="icon text-success fs-1">
+              <i class="bi bi-hearts"></i>
+            </div>
+            <h4 class="fw-semibold mb-0">Featured title</h4>
+            <p class="text-muted">Paragraph of text beneath the heading to explain the heading.</p>
+          </div>
+  
+          <div class="col d-flex flex-column gap-2">
+            <div
+              class="icon text-success fs-1">
+              <i class="bi bi-hearts"></i>
+            </div>
+            <h4 class="fw-semibold mb-0">Featured title</h4>
+            <p class="text-muted">Paragraph of text beneath the heading to explain the heading.</p>
+          </div>
+  
+          <div class="col d-flex flex-column gap-2">
+            <div
+              class="icon text-success fs-1">
+              <i class="bi bi-hearts"></i>
+            </div>
+            <h4 class="fw-semibold mb-0">Featured title</h4>
+            <p class="text-muted">Paragraph of text beneath the heading to explain the heading.</p>
+          </div>
         </div>
       </div>
     </div>
   </div>
-  <!-- fitur end -->
-    
-  <!-- formulir pertnyaan -->
-  <section id="hubungi">
-    <div class="ask">
-      <form class="container">
-        <h3 class="fw-bold text-center pb-3">Hubungi</h3>
-        <div class="form-group">
-          <label for="name" class="nama fw-semibold">Nama:<span class="require text-danger">*</span></label>
-          <input type="text" style="border: 1px solid #808080;" class="form-control" id="name"
-            placeholder="Nama Anda" name="name" required>
+  <!-- Kelebihan end -->
+
+  <!-- produk bag 1 -->
+  <section>
+    <div class="container px-4 py-5">
+      <h3 class="pb-2 border-bottom fw-bold">Menu BUDE CateringKu</h3>
+  <div class="container produk gap-2">
+
+      <div class="card mb-2">
+        <img src="images/galeri1.jpg" class="card-img-top" alt="menu">
+        <div class="card-body">
+          <div class="d-flex mx-auto justify-content-center">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+          </div>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.
+          </p>
         </div>
-    
-        <div class="form-group mt-3">
-          <label for="ask" class="alamat fw-semibold">Pertanyaan:<span class="require text-danger">*</span></label>
-          <textarea style="border: 1px solid #808080;" class="form-control" rows="5" id="ask"
-            placeholder="Mau tanya apa?" address="address" required></textarea>
+      </div>
+
+      <div class="card mb-2">
+        <img src="images/galeri2.jpg" class="card-img-top" alt="menu">
+        <div class="card-body">
+          <div class="d-flex mx-auto justify-content-center">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+          </div>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.
+          </p>
         </div>
-    
-        <button type="button" class="btn btn-primary mt-3 d-flex align-items-center mx-auto btn-lg"
-          onclick="window.open('https://wa.me/6281381170701?text=Halo%20Bude%20saya%20'+document.getElementById('name').value+'%20ingin%20bertanya%20'+document.getElementById('ask').value, '_blank')"><i
-            class="fa-solid fa-brands fa-whatsapp flex-shrink-0 me-1" style="color: #fff;"></i>Tanya Bude Catering</button>
-        </a>
-      </form>
+      </div>
+
+      <div class="card mb-2">
+        <img src="images/galeri3.jpg" class="card-img-top" alt="menu">
+        <div class="card-body">
+          <div class="d-flex mx-auto justify-content-center">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+          </div>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.
+          </p>
+        </div>
+      </div>
+      
+      <div class="card mb-2">
+        <img src="images/galeri4.jpg" class="card-img-top" alt="menu">
+        <div class="card-body">
+          <div class="d-flex mx-auto justify-content-center">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+          </div>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.
+          </p>
+        </div>
+      </div>
+
+      <div class="card mb-2">
+        <img src="images/galeri5.jpg" class="card-img-top" alt="menu">
+        <div class="card-body">
+          <div class="d-flex mx-auto justify-content-center">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+          </div>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.
+          </p>
+        </div>
+      </div>
+      
+      <div class="card mb-2">
+        <img src="images/galeri6.jpg" class="card-img-top" alt="menu">
+        <div class="card-body">
+          <div class="d-flex mx-auto justify-content-center">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+          </div>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.
+          </p>
+        </div>
+      </div>
+
+  </div>
+  </section>
+  <!-- produk bag 1 end -->
+
+  <!-- penutup -->
+  <section>
+    <div class="container">
+      <div class="position-relative overflow-hidden p-5 p-md-5 m-0 text-center bg-success penutup">
+        <div class="col-md-5 p-lg-5 mx-auto my-5">
+          <img src="images/bude.jpg" class="rounded-circle logo" alt="bude-catering">
+
+          <div class="d-flex mx-auto justify-content-center">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          </div>
+
+          <h1 class="display-4 fw-normal">BUDE CateringKu</h1>
+          <p class="lead fw-normal">Mewujudkan impian Anda untuk pesta yang luar biasa dengan menyediakan makanan yang lezat dan layanan catering yang
+          istimewa dari BUDE CateringKu.</p>
+
+          <div>
+          <strong><i class="bi bi-geo-alt-fill me-1"></i>BUDE CateringKu berlokasi di Citeureup-Bogor</strong>
+          </div>
+
+          <div>
+          <a href="" target="_blank" class="btn btn-light mt-5" type="button"><i class="bi bi-whatsapp me-1"></i>Hubungi BUDE</a>
+          </div>
+
+        </div>
+      </div>
     </div>
   </section>
-  <!-- formulir pertnyaan end -->
+  <!-- penutup end -->
 
   <!-- footer -->
-<div class="b-example-divider"></div>
+  <section class="bg-dark text-light">
+    <div class="container">
+      <footer class="py-1">
 
-<div class="container">
-  <footer class="py-3 my-4">
-    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Disclaimer</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Privacy</a></li>
-    </ul>
-    <p class="text-center text-muted">&copy; <script>document.write(new Date().getFullYear())</script> CateringKu - Bude</p>
-  </footer>
-</div>
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-1 my-1 footeratas">
+          <p>&copy; <script>document.write(new Date().getFullYear())</script> <a style="text-decoration: none;" href="/"><span
+              class="text-success me-1 ms-1 fw-bold">BUDE CateringKu.</span></a></p>
+              
+
+          <p>made with<i class="bi bi-heart-fill text-danger ms-1 me-1 footerbawah"></i>design by.<a style="text-decoration: none;" href="https://condrock.eu.org" target="_blank"><span class="text-success ms-1 fw-bold">Cond Rock.</span></a></p>
+        </div>
+
+      </footer>
+
+    </div>
+  </section>
   <!-- footer end -->
+
+  <!-- javascript -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+    <!-- javascript end-->
+    
 </body>
 
 </html>
